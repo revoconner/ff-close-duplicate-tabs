@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <label class="option">
+        <input type="checkbox" id="sameWindowOnly">
+        <span class="switch"></span>
+        <span>
+            Only close tabs from the window it's clicked in
+            <small>Tabs in every other Firefox window are ignored.</small>
+        </span>
+    </label>
+    <label class="option">
+        <input type="checkbox" id="exactMatch">
+        <span class="switch"></span>
+        <span>
+            Exact URL match
+            <small>When off, everything from the first ? or # in the URL is ignored when comparing tabs.</small>
+        </span>
+    </label>
+    <script src="options.js"></script>
+</body>
+</html>
